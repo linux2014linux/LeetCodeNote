@@ -6,7 +6,7 @@ import org.junit.Test;
 public class S0001Test {
 
   @Test
-  public void longestPalindromeTest() {
+  public void twoSumTest1() {
     S0001 s0001 = new S0001();
 
     int[] nums1 = new int[]{2, 11, 7, 5};
