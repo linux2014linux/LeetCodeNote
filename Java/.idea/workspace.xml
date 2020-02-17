@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313efc71-41ee-4945-bba4-ba4c9e0b6633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0004/S0004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java/Solution/S0004/S0004Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Solution/S0011/S0011.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0011/S0011.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,38 +15,40 @@
     <session id="1219098590">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="25" />
+          <entry key="java" value="27" />
           <entry key="kt" value="1" />
-          <entry key="md" value="8" />
+          <entry key="md" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="27" />
           <entry key="Kotlin" value="1" />
-          <entry key="Markdown" value="8" />
+          <entry key="Markdown" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7855" />
-          <entry key="md" value="88" />
+          <entry key="java" value="8921" />
+          <entry key="md" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7855" />
-          <entry key="Markdown" value="88" />
+          <entry key="JAVA" value="8921" />
+          <entry key="Markdown" value="167" />
         </counts>
       </usages-collector>
     </session>
@@ -57,22 +56,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0004/S0004.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0011/S0011.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-              <folding>
-                <element signature="method#findMedianSortedArrays#0;class#S0004#0" />
-              </folding>
+            <state relative-caret-position="70">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0004/S0004Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0011/S0011Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="154">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,9 +132,11 @@
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0002/S0002Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0003/S0003Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0003/S0003.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0004/S0004Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0004/S0004.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0011/S0011Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0011/S0011.java" />
       </list>
     </option>
   </component>
@@ -164,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,28 +242,30 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581940084701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582008377606" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Java.Solution" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/Java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Java.Solution.S0002" />
       <recent name="Java.Solution.S0001" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/picture" />
+      <recent name="$PROJECT_DIR$/src/main/java/Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -278,23 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.S0004Test.findMedianSortedArraysTest">
-    <configuration name="S0002Test.addTwoNumbersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.Solution.S0002.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0002" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0002.S0002Test" />
-      <option name="METHOD_NAME" value="addTwoNumbersTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.S0011Test.maxAreaTest">
     <configuration name="S0002Test.addTwoNumbersTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -359,20 +345,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="S0011Test.maxAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Solution.S0011.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.Solution.S0011" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0011.S0011Test" />
+      <option name="METHOD_NAME" value="maxAreaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.S0002Test.addTwoNumbersTest3" />
       <item itemvalue="JUnit.S0002Test.addTwoNumbersTest4" />
-      <item itemvalue="JUnit.S0002Test.addTwoNumbersTest1" />
       <item itemvalue="JUnit.S0003Test.lengthOfLongestSubstringTest" />
       <item itemvalue="JUnit.S0004Test.findMedianSortedArraysTest" />
+      <item itemvalue="JUnit.S0011Test.maxAreaTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.S0011Test.maxAreaTest" />
         <item itemvalue="JUnit.S0004Test.findMedianSortedArraysTest" />
         <item itemvalue="JUnit.S0003Test.lengthOfLongestSubstringTest" />
         <item itemvalue="JUnit.S0002Test.addTwoNumbersTest4" />
         <item itemvalue="JUnit.S0002Test.addTwoNumbersTest3" />
-        <item itemvalue="JUnit.S0002Test.addTwoNumbersTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -387,50 +389,52 @@
       <option name="presentableId" value="Default" />
       <updated>1581837572945</updated>
       <workItem from="1581837576918" duration="9913000" />
-      <workItem from="1581902734306" duration="20622000" />
+      <workItem from="1581902734306" duration="21254000" />
+      <workItem from="1581946908307" duration="961000" />
+      <workItem from="1581983668705" duration="6434000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 18h 52m 21s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 23m 26s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 18h 52m 44s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 24m 28s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 18h 53m 10s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 24m 53s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 18h 54m 08s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 28m 31s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 18h 54m 34s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 33m 24s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 18h 55m 19s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 35m 02s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 18h 56m 12s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 38m 40s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 19h 34m 21s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 41m 35s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 19h 38m 00s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 12h 44m 53s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0004Test_findMedianSortedArraysTest - 2020.02.17 at 19h 40m 17s.xml">
-      <configuration name="S0004Test.findMedianSortedArraysTest" configurationId="JUnit" />
+    <history-entry file="S0011Test_maxAreaTest - 2020.02.18 at 14h 37m 43s.xml">
+      <configuration name="S0011Test.maxAreaTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30535000" />
+    <option name="totallyTimeSpent" value="38562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-11" width="1319" height="626" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14274509" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -439,14 +443,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25201613" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28225806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4092742" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45362905" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32459676" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2923387" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.37701613" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -534,9 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,30 +562,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0004/S0004Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+          <first_editor relative-caret-position="157">
+            <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0004/S0004Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0004/S0004.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="126">
+          <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0004/S0004.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0011/S0011Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <element signature="method#findMedianSortedArrays#0;class#S0004#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0011/S0011.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
