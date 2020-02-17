@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313efc71-41ee-4945-bba4-ba4c9e0b6633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0002/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0002/S0002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java/Solution/S0002/S0002Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0003/S0003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java/Solution/S0003/S0003Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java/Solution/S0001/S0001Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java/Solution/S0001/S0001Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,45 +18,73 @@
     <session id="1219098590">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="class" value="1" />
+          <entry key="java" value="23" />
           <entry key="kt" value="1" />
-          <entry key="md" value="5" />
+          <entry key="md" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="23" />
           <entry key="Kotlin" value="1" />
-          <entry key="Markdown" value="5" />
+          <entry key="Markdown" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3282" />
-          <entry key="md" value="32" />
+          <entry key="java" value="5796" />
+          <entry key="md" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3282" />
-          <entry key="Markdown" value="32" />
+          <entry key="JAVA" value="5796" />
+          <entry key="Markdown" value="43" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0002/S0002.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0003/S0003.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="252">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0003/S0003Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="194">
+                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -81,6 +107,8 @@
       <find>sumCurrentNode</find>
       <find>carryNum</find>
       <find>currentSum</find>
+      <find>maxLenght</find>
+      <find>charPositionList</find>
     </findStrings>
     <replaceStrings>
       <replace>carryNum</replace>
@@ -89,6 +117,8 @@
       <replace>cursor</replace>
       <replace>carry</replace>
       <replace>sum</replace>
+      <replace>maxLength</replace>
+      <replace>positionMap</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -109,11 +139,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0005/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0005/S0005Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0001/S0001.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0002/ListNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0001/S0001Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0002/S0002.java" />
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0002/S0002Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0003/S0003Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0003/S0003.java" />
       </list>
     </option>
   </component>
@@ -142,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,7 +226,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="Solution" type="462c0819:PsiDirectoryNode" />
-              <item name="S0002" type="462c0819:PsiDirectoryNode" />
+              <item name="S0003" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
@@ -233,29 +266,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="Solution" type="462c0819:PsiDirectoryNode" />
-              <item name="S0001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution" type="462c0819:PsiDirectoryNode" />
-              <item name="S0005" type="462c0819:PsiDirectoryNode" />
+              <item name="S0003" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581846641588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581923899636" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -283,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.S0002Test.addTwoNumbersTest4">
+  <component name="RunManager" selected="JUnit.S0003Test.lengthOfLongestSubstringTest">
     <configuration name="S0002Test.addTwoNumbersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -348,17 +370,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S0002Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="S0003Test.lengthOfLongestSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Solution.S0002.*" />
+          <option name="PATTERN" value="Java.Solution.S0003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0002" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0002.S0002Test" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="Java.Solution.S0003" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0003.S0003Test" />
+      <option name="METHOD_NAME" value="lengthOfLongestSubstringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -369,15 +391,15 @@
       <item itemvalue="JUnit.S0002Test.addTwoNumbersTest3" />
       <item itemvalue="JUnit.S0002Test.addTwoNumbersTest4" />
       <item itemvalue="JUnit.S0002Test.addTwoNumbersTest1" />
-      <item itemvalue="JUnit.S0002Test.test" />
+      <item itemvalue="JUnit.S0003Test.lengthOfLongestSubstringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.S0003Test.lengthOfLongestSubstringTest" />
         <item itemvalue="JUnit.S0002Test.addTwoNumbersTest4" />
         <item itemvalue="JUnit.S0002Test.addTwoNumbersTest3" />
         <item itemvalue="JUnit.S0002Test.addTwoNumbersTest1" />
         <item itemvalue="JUnit.S0002Test.addTwoNumbersTest2" />
-        <item itemvalue="JUnit.S0002Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -391,78 +413,79 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581837572945</updated>
-      <workItem from="1581837576918" duration="9057000" />
+      <workItem from="1581837576918" duration="9913000" />
+      <workItem from="1581902734306" duration="15664000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="S0002Test_addTwoNumbersTest1 - 2020.02.16 at 17h 29m 47s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest1" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 14h 34m 28s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest1 - 2020.02.16 at 17h 29m 59s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest1" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 14h 35m 05s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest2 - 2020.02.16 at 17h 30m 24s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest2" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 05m 20s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest3 - 2020.02.16 at 17h 30m 46s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest3" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 05m 32s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest4 - 2020.02.16 at 17h 30m 54s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest4" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 07m 49s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest1 - 2020.02.16 at 17h 40m 15s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest1" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 08m 02s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest1 - 2020.02.16 at 17h 41m 10s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest1" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 11m 09s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest1 - 2020.02.16 at 17h 43m 22s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest1" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 12m 15s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest3 - 2020.02.16 at 17h 45m 10s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest3" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 12m 56s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0002Test_addTwoNumbersTest4 - 2020.02.16 at 17h 45m 55s.xml">
-      <configuration name="S0002Test.addTwoNumbersTest4" configurationId="JUnit" />
+    <history-entry file="S0003Test_lengthOfLongestSubstringTest - 2020.02.17 at 15h 14m 12s.xml">
+      <configuration name="S0003Test.lengthOfLongestSubstringTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9057000" />
+    <option name="totallyTimeSpent" value="25577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="-4" width="1317" height="618" extended-state="6" />
+    <frame x="46" y="-11" width="1319" height="626" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19686274" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1827451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.37701613" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30645162" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.546371" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31653225" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28225806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="LuaJ" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.37701613" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="LuaJ" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,27 +498,8 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="112">
-            <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0005/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Java/Solution/S0001/S0001Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0005/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Java/Solution/S0001/S0001Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0005/S0005.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -510,49 +514,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0005/S0005Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="392">
-            <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0002/S0002.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0002/S0002.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0002/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,32 +536,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0001/S0001Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0002/S0002.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0005/S0005Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0002/S0002Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="72" column="14" lean-forward="true" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        <state relative-caret-position="249">
+          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="194">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0001/S0001Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#buildNumList#0;class#S0002Test#0" />
-            <element signature="method#addTwoNumbersTest3#0;class#S0002Test#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0002/S0002.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="83">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0003/S0003Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0003/S0003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
