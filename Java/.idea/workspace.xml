@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313efc71-41ee-4945-bba4-ba4c9e0b6633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0042/S0042.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java/Solution/S0042/S0042Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Solution/S0390/S0390.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0390/S0390.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,42 +15,43 @@
     <session id="1219098590">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="43" />
+          <entry key="java" value="45" />
           <entry key="kt" value="1" />
-          <entry key="md" value="14" />
+          <entry key="md" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="45" />
           <entry key="Kotlin" value="1" />
-          <entry key="Markdown" value="14" />
+          <entry key="Markdown" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18075" />
-          <entry key="md" value="265" />
+          <entry key="java" value="19865" />
+          <entry key="md" value="289" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18075" />
-          <entry key="Markdown" value="265" />
+          <entry key="JAVA" value="19865" />
+          <entry key="Markdown" value="289" />
         </counts>
       </usages-collector>
     </session>
@@ -61,19 +59,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0042/S0042.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0390/S0390.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+            <state relative-caret-position="140">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0042/S0042Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0390/S0390Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +111,8 @@
       <find>exceptResultMap</find>
       <find>StringUtils.join(list, &quot;&quot;);</find>
       <find>，</find>
+      <find>listNode</find>
+      <find>l2r</find>
     </findStrings>
     <replaceStrings>
       <replace>carryNum</replace>
@@ -127,6 +131,8 @@
       <replace>expectedResultMap</replace>
       <replace>intListToSortedString(list);</replace>
       <replace>,</replace>
+      <replace>ListNode</replace>
+      <replace>isLeft</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -163,9 +169,11 @@
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0016/S0016Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0016/S0016.java" />
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0922/S0922Test.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0042/S0042Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0042/S0042.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0390/S0390Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0390/S0390.java" />
       </list>
     </option>
   </component>
@@ -194,8 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582377610636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582448451831" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -310,21 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.S0042Test.maxSubArray">
-    <configuration name="S0015Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.Solution.S0015.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0015" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0015.S0015Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.S0390Test.lastRemainingTest">
     <configuration name="S0016Test.threeSumClosestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -371,6 +365,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="S0390Test.lastRemainingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Solution.S0390.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.Solution.S0390" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0390.S0390Test" />
+      <option name="METHOD_NAME" value="lastRemainingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="S0922Test.sortArrayByParityIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -388,19 +398,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.S0015Test" />
       <item itemvalue="JUnit.S0016Test.threeSumClosestTest" />
       <item itemvalue="JUnit.S0922Test.sortArrayByParityIITest" />
       <item itemvalue="JUnit.S0042Test.maxSubArray" />
       <item itemvalue="JUnit.S0042Test" />
+      <item itemvalue="JUnit.S0390Test.lastRemainingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.S0390Test.lastRemainingTest" />
         <item itemvalue="JUnit.S0042Test.maxSubArray" />
         <item itemvalue="JUnit.S0042Test" />
         <item itemvalue="JUnit.S0922Test.sortArrayByParityIITest" />
         <item itemvalue="JUnit.S0016Test.threeSumClosestTest" />
-        <item itemvalue="JUnit.S0015Test" />
       </list>
     </recent_temporary>
   </component>
@@ -420,50 +430,51 @@
       <workItem from="1581983668705" duration="21652000" />
       <workItem from="1582073440237" duration="4577000" />
       <workItem from="1582282374736" duration="8000" />
-      <workItem from="1582362659265" duration="10079000" />
+      <workItem from="1582362659265" duration="11008000" />
+      <workItem from="1582440893760" duration="6001000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="S0042Test - 2020.02.22 at 21h 01m 00s.xml">
-      <configuration name="S0042Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 05m 10s.xml">
-      <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 05m 16s.xml">
-      <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 06m 12s.xml">
-      <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 06m 37s.xml">
-      <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 08m 25s.xml">
-      <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 09m 46s.xml">
-      <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 16m 30s.xml">
-      <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 17m 09s.xml">
       <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
     </history-entry>
     <history-entry file="S0042Test_maxSubArray - 2020.02.22 at 21h 18m 07s.xml">
       <configuration name="S0042Test.maxSubArray" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 15h 02m 47s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 16h 00m 21s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 16h 01m 17s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 16h 02m 58s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 16h 04m 13s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 16h 04m 48s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 16h 05m 57s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="S0390Test_lastRemainingTest - 2020.02.23 at 16h 07m 59s.xml">
+      <configuration name="S0390Test.lastRemainingTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68444000" />
+    <option name="totallyTimeSpent" value="75374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-11" width="1319" height="626" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18431373" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,14 +483,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39717743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33669356" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4092742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4173387" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41330644" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.37701613" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -651,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,9 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,30 +686,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0042/S0042.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0042/S0042Test.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="28">
+            <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0390/S0390Test.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0042/S0042.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0390/S0390.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        <state relative-caret-position="140">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
