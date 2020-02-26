@@ -1,0 +1,4 @@
+将所有元素的height改大，然后添加overflow-y: hidden;
+在html层添加overflow-y: scorll; height: 99999px;
+然后再打印即可。
+chome打印是依靠浏览器本身的滚动条做翻页的，一旦是元素自己的滚动条，那么打印就会失效。
