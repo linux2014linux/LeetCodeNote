@@ -154,6 +154,10 @@ public class S0015Test {
   public void diffExpectAndOutput(int[] nums, Map<String, Integer> expectedResultMap) {
     S0015 s0015 = new S0015();
     List<List<Integer>> listList = s0015.threeSum(nums);
+    if (listList.size() != expectedResultMap.size()) {
+      Assert.assertTrue(false);
+    }
+
     for (List<Integer> list : listList) {
       String key = intListToSortedString(list);
       Assert.assertTrue(expectedResultMap.containsKey(key) && expectedResultMap.get(key) == 1);
