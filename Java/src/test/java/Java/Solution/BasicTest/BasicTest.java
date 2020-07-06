@@ -1,10 +1,18 @@
 package Java.Solution.BasicTest;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
 import java.util.LinkedList;
 import java.util.List;
 import javafx.util.Pair;
@@ -160,5 +168,26 @@ public class BasicTest {
     } catch (java.text.ParseException e) {
     }
     return ts;
+  }
+
+  @Test
+  public void test() {
+    String filePath = "/home/lt/Downloads/test.txt";
+    try {
+      ObjectOutputStream oos = new ObjectOutputStream(
+          new FileOutputStream(filePath));
+      Person person = new Person("zhangsan", 23);
+      oos.writeObject(person);
+      oos.close();
+
+      ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filePath));
+      Person person1 = (Person) ois.readObject();
+      System.out.println(person1.toString());
+      ois.close();
+    } catch (Exception e) {
+      System.out.println(e.getMessage());
+    }
+
+
   }
 }
