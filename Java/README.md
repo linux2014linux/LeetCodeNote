@@ -270,6 +270,16 @@ for (int i = 0; i < len; i++) {
 依然是快慢指针, 第一次相遇时, p2快指针回到表头, 改为每次移动一步, p1依然不变. 第二次相遇结点即环入口结点. 思路详解见:
 ![avatar](https://github.com/linux2014linux/LeetCodeNote/blob/master/Java/picture/S0142.png)
 
+## S0160.相交链表
+编写一个程序，找到两个单链表相交的起始节点.
+
+### 解答思路
+双指针, p1到尾部时, p1切换到head2, p2到尾部时, p2切换到head1.
+p1 == p2时返回即可.
+原理: a + c + b = b + c + a
+a+c = headA.length
+b+c = headB.length
+c是公共部分的长度.
 
 ## S0300. 最长上升子序列
 给定一个无序的整数数组，找到其中最长上升子序列的长度。
