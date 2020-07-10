@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313efc71-41ee-4945-bba4-ba4c9e0b6633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0021/S0021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java/Solution/S0021/S0021Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/S0142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/Solution/S0142/S0142.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java/Solution/S0142/S0142Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,10 +59,10 @@
         <counts>
           <entry key="class" value="12" />
           <entry key="cpp" value="2" />
-          <entry key="java" value="167" />
+          <entry key="java" value="174" />
           <entry key="json" value="2" />
           <entry key="kt" value="1" />
-          <entry key="md" value="35" />
+          <entry key="md" value="36" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -68,26 +70,26 @@
         <counts>
           <entry key="C++" value="2" />
           <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="167" />
+          <entry key="JAVA" value="174" />
           <entry key="JSON" value="2" />
           <entry key="Kotlin" value="1" />
-          <entry key="Markdown" value="35" />
+          <entry key="Markdown" value="36" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="71973" />
+          <entry key="java" value="73244" />
           <entry key="json" value="74" />
-          <entry key="md" value="1121" />
+          <entry key="md" value="1434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="71973" />
+          <entry key="JAVA" value="73244" />
           <entry key="JSON" value="74" />
-          <entry key="Markdown" value="1121" />
+          <entry key="Markdown" value="1434" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
@@ -95,36 +97,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="142">
-                <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+              <first_editor relative-caret-position="366">
+                <caret line="270" column="92" lean-forward="true" selection-start-line="270" selection-start-column="92" selection-end-line="270" selection-end-column="92" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0021/S0021.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0142/S0142.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-              <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0021/S0021Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0142/S0142Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -218,9 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Java/Solution/Other/PrintHistogramTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java/Solution/Other/PrintHistogram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java/Solution/Other/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/Other/SegmentTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/Other/SegmentTree/SegmentTreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/Other/SegmentTree/SegmentTree.java" />
@@ -267,8 +262,11 @@
         <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0084/S0084Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0084/S0084.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0021/S0021Test.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0021/S0021.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Java/Solution/S0141/S0141Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0141/S0141.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java/Solution/S0142/S0142.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -309,87 +307,7 @@
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution" type="462c0819:PsiDirectoryNode" />
-              <item name="S0021" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution" type="462c0819:PsiDirectoryNode" />
-              <item name="S0021" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,7 +318,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594304712655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594354894497" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -412,9 +330,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Java.Solution" />
       <recent name="Java.Solution.S0021" />
       <recent name="Java" />
-      <recent name="Java.Solution" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Java.Solution.S0021" />
@@ -443,99 +361,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.S0084Test.testD">
-    <configuration name="S0084Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.S0141Test">
+    <configuration name="S0141Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Solution.S0084.*" />
+          <option name="PATTERN" value="Java.Solution.S0141.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0084" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0084.S0084Test" />
+      <option name="PACKAGE_NAME" value="Java.Solution.S0141" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0141.S0141Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S0084Test.testA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="S0141Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Solution.S0084.*" />
+          <option name="PATTERN" value="Java.Solution.S0141.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0084" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0084.S0084Test" />
-      <option name="METHOD_NAME" value="testA" />
+      <option name="PACKAGE_NAME" value="Java.Solution.S0141" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0141.S0141Test" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S0084Test.testB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="S0141Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Solution.S0084.*" />
+          <option name="PATTERN" value="Java.Solution.S0141.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0084" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0084.S0084Test" />
-      <option name="METHOD_NAME" value="testB" />
+      <option name="PACKAGE_NAME" value="Java.Solution.S0141" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0141.S0141Test" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S0084Test.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="S0141Test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Solution.S0084.*" />
+          <option name="PATTERN" value="Java.Solution.S0141.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0084" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0084.S0084Test" />
-      <option name="METHOD_NAME" value="testC" />
+      <option name="PACKAGE_NAME" value="Java.Solution.S0141" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0141.S0141Test" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S0084Test.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="S0141Test.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Solution.S0084.*" />
+          <option name="PATTERN" value="Java.Solution.S0141.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java.Solution.S0084" />
-      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0084.S0084Test" />
-      <option name="METHOD_NAME" value="testD" />
+      <option name="PACKAGE_NAME" value="Java.Solution.S0141" />
+      <option name="MAIN_CLASS_NAME" value="Java.Solution.S0141.S0141Test" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.S0084Test.testC" />
-      <item itemvalue="JUnit.S0084Test.testA" />
-      <item itemvalue="JUnit.S0084Test.testB" />
-      <item itemvalue="JUnit.S0084Test" />
-      <item itemvalue="JUnit.S0084Test.testD" />
+      <item itemvalue="JUnit.S0141Test.test1" />
+      <item itemvalue="JUnit.S0141Test.test3" />
+      <item itemvalue="JUnit.S0141Test.test4" />
+      <item itemvalue="JUnit.S0141Test.test5" />
+      <item itemvalue="JUnit.S0141Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.S0084Test.testD" />
-        <item itemvalue="JUnit.S0084Test.testC" />
-        <item itemvalue="JUnit.S0084Test.testB" />
-        <item itemvalue="JUnit.S0084Test.testA" />
-        <item itemvalue="JUnit.S0084Test" />
+        <item itemvalue="JUnit.S0141Test" />
+        <item itemvalue="JUnit.S0141Test.test1" />
+        <item itemvalue="JUnit.S0141Test.test4" />
+        <item itemvalue="JUnit.S0141Test.test5" />
+        <item itemvalue="JUnit.S0141Test.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -587,50 +505,50 @@
       <workItem from="1585627358015" duration="15000" />
       <workItem from="1585711322100" duration="12860000" />
       <workItem from="1585879949718" duration="11878000" />
-      <workItem from="1593868953784" duration="24488000" />
+      <workItem from="1593868953784" duration="30227000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="S0084Test_testD - 2020.07.09 at 21h 35m 05s.xml">
-      <configuration name="S0084Test.testD" configurationId="JUnit" />
+    <history-entry file="S0141Test_test2 - 2020.07.10 at 11h 13m 03s.xml">
+      <configuration name="S0141Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testD - 2020.07.09 at 21h 45m 29s.xml">
-      <configuration name="S0084Test.testD" configurationId="JUnit" />
+    <history-entry file="S0141Test_test3 - 2020.07.10 at 11h 13m 07s.xml">
+      <configuration name="S0141Test.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testA - 2020.07.09 at 21h 57m 56s.xml">
-      <configuration name="S0084Test.testA" configurationId="JUnit" />
+    <history-entry file="S0141Test_test4 - 2020.07.10 at 11h 13m 11s.xml">
+      <configuration name="S0141Test.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testB - 2020.07.09 at 21h 58m 03s.xml">
-      <configuration name="S0084Test.testB" configurationId="JUnit" />
+    <history-entry file="S0141Test_test5 - 2020.07.10 at 11h 13m 32s.xml">
+      <configuration name="S0141Test.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testC - 2020.07.09 at 21h 58m 07s.xml">
-      <configuration name="S0084Test.testC" configurationId="JUnit" />
+    <history-entry file="S0141Test_test4 - 2020.07.10 at 11h 15m 33s.xml">
+      <configuration name="S0141Test.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testD - 2020.07.09 at 21h 58m 11s.xml">
-      <configuration name="S0084Test.testD" configurationId="JUnit" />
+    <history-entry file="S0141Test_test4 - 2020.07.10 at 11h 15m 44s.xml">
+      <configuration name="S0141Test.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testA - 2020.07.09 at 21h 59m 28s.xml">
-      <configuration name="S0084Test.testA" configurationId="JUnit" />
+    <history-entry file="S0141Test_test4 - 2020.07.10 at 11h 16m 07s.xml">
+      <configuration name="S0141Test.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testB - 2020.07.09 at 21h 59m 33s.xml">
-      <configuration name="S0084Test.testB" configurationId="JUnit" />
+    <history-entry file="S0141Test_test1 - 2020.07.10 at 11h 16m 21s.xml">
+      <configuration name="S0141Test.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testC - 2020.07.09 at 21h 59m 36s.xml">
-      <configuration name="S0084Test.testC" configurationId="JUnit" />
+    <history-entry file="S0141Test - 2020.07.10 at 11h 16m 26s.xml">
+      <configuration name="S0141Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="S0084Test_testD - 2020.07.09 at 21h 59m 41s.xml">
-      <configuration name="S0084Test.testD" configurationId="JUnit" />
+    <history-entry file="S0141Test - 2020.07.10 at 11h 17m 41s.xml">
+      <configuration name="S0141Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316153000" />
+    <option name="totallyTimeSpent" value="321892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1855" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16325401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13171002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -639,14 +557,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47706422" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34862384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40104848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34862384" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29226735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.37670383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -669,31 +587,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/Other/SegmentTree/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/Other/SegmentTree/Array/SegmentTreeByArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/Other/SegmentTree/List/SegmentTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../tmp_code/cpp/main.cpp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/Other/SegmentTree/List/SegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1050,24 +943,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="142">
-            <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0021/S0021.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="882">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0142/S0142Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java/Solution/S0141/S0141Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0141/S0141.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="28" selection-start-line="28" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java/Solution/S0142/S0142.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="366">
+            <caret line="270" column="92" lean-forward="true" selection-start-line="270" selection-start-column="92" selection-end-line="270" selection-end-column="92" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
