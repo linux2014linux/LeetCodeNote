@@ -15,9 +15,12 @@ public class S0003 {
 
     int maxLength = 0, windowStartIndex = 0;
     for (int sIndex = 0; sIndex < s.length(); sIndex++) {
+      // pos时字符的整数形式
       int pos = (int)s.charAt(sIndex);
-      // windowsStartIndex变大即出现重复字符,窗口起始未知向左移动
+
+      // windowsStartIndex变大即出现重复字符,窗口起始位置向左移动
       windowStartIndex = Math.max(windowStartIndex, positionMap[pos] + 1);
+
       maxLength = Math.max(maxLength, sIndex - windowStartIndex + 1);
       positionMap[pos] = sIndex;
     }
